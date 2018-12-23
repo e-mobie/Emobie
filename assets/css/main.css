@@ -1,0 +1,481 @@
+
+body{
+	margin:0 auto;
+	font-family: "Nunito", sans-serif;
+}
+
+header{
+	position: relative;
+	top:0;
+	height:auto;
+	min-height: 70px;
+	width: 100%;
+	color:#fff;
+	z-index: 5;
+		border-bottom: 2px solid #000bfa;
+}
+
+.container{
+	width: 95%;
+	margin:0 auto;
+}
+
+
+#logo{
+	position: absolute;
+	top:40%;
+	left:4%;
+	transform: translateY(-50%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.dropdown-btn{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:8px;
+	height: 100%;
+	max-height: 40px;
+	width: 50px;
+	background-color: #fff;
+	padding: 0;
+	margin:0;
+	border-radius: 8px;
+	border:1px solid #007bff;
+}
+
+#logo{
+	color:#007bff;
+}
+
+
+
+i{
+	position: relative;
+	top:50%;
+	left: 35%;
+	transform: translateY(-50%);
+	margin:0 auto;
+	color:grey;
+}
+
+div.mobile-header{
+	position: relative;
+	height:60px;
+
+}
+.mobile-header div{
+	display: inline;
+}
+.dsk-top-nav{
+	display: none;
+	min-height:50px;
+	font-weight: 500;
+}
+
+.dsk-top-nav ul{
+	text-align: right;
+	padding-top:20px;
+	padding-bottom:0;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom:0;
+}
+.special-btn{
+	color:white;
+	border-radius: 20px;
+	border:2px solid #6610f2;
+	padding: 5px 15px;
+	background-color: #6610f2;
+}
+
+
+
+.dsk-top-nav li{
+	display: none;
+	padding: 18px 10px;
+}
+.dsk-top-nav li a{
+	color:#4D4D4D;
+	text-decoration: none;
+	font-size:16px;
+}
+
+.dsk-top-nav li a:hover{
+	transition: .6s;
+	color:#007bff;
+}
+
+.dsk-top-nav .special-btn-dsktop {
+	color:white;
+	border-radius: 20px;
+	border:2px solid #6610f2;
+	padding: 5px 15px;
+	background-color: #6610f2;
+}
+
+.dsk-top-nav .special-btn-dsktop:hover{
+	color:#4D4D4D;
+	border:2px solid #6610f2;
+	background-color: white;
+}
+
+.dropdown-content{
+	display: none;
+	width: 100%;
+	font-family: 'Arial', 'sans-serif';
+}
+
+.dropdown-content ul{
+	padding-left: 0;
+	margin:0;
+}
+
+.dropdown-content li a{
+	/*color:#333;*/
+	text-decoration: none;
+}
+
+.dropdown-content li{
+	padding: 10px 15px;
+}
+
+.dropdown-content li:hover{
+	/*transition: .6s;*/
+	/*color:#6610f2;*/
+	/*background-color: #FFFF00;*/
+}
+
+.dropdown-content a:hover{
+	transition: .6s;
+	color:#007bff;
+}
+
+
+
+
+
+.special-btn:hover{
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+#showcase{
+	position: relative;
+	min-height: 400px;
+	width: 100%;
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: red;
+}
+
+.overlay{
+	position: absolute;
+	z-index: 3;
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(90deg,rgba(255,105,180,.4),rgba(255,211,0,.3));
+}
+
+
+
+.input_field{
+	position: relative;
+	min-height: 100px;
+	margin:0 auto;
+	padding: 10px 10px;
+	width: 80%;
+	background-color: #eee;
+}
+
+.search{
+	position: absolute;
+	height: 40px;
+	right:0px;
+	left:0px;
+	width:80%;
+	margin:10px auto;
+	padding:0;
+	border:none;
+	border-radius: 10px;
+}
+
+.submit{
+	position: absolute;
+	margin:0 auto;
+	height: 30px;
+	right:0px;
+	left:0px;
+	top:70px;
+	width: 20%;
+	color:#fff;
+	border:none;
+	border-radius: 10px;
+	background-color: #28a745;
+}
+
+
+#tickets{
+	min-height: 100px;
+	height:auto;
+	background-color: grey;
+}
+
+#container-tickets{
+	width: 95%;
+	padding: 10px;
+	margin:0 auto;
+}
+
+.card{
+	position: relative;
+	height:auto;
+	min-height: 450px;
+	margin:20px auto;
+	padding: 20px;
+	color:#4D4D4D;
+	background-color:#fff;
+	width:80%;
+	max-width: 300px;
+	border-radius: 8px;
+	font-family: "Nunito", sans-serif;
+}
+
+.img-container img{
+	width: 100%;
+	height:100%;
+	max-height: 400px;
+}
+.price{
+	position: absolute;
+	top:30px;
+	right:10px;
+	background-color: #28a745;
+	color:#eee;
+	padding:5px 20px;
+	border:none;
+	border-radius:5px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.price:hover{
+	transition: .6s;
+	background-color: #6c757d;
+}
+.general-info{
+	line-height: 1.2;
+}
+
+.general-info p{
+	margin-left: 30px;
+}
+
+.icon{
+	position:absolute;
+}
+
+.general-info button{
+	background-color: #28a745;
+	color:#eee;
+	padding:5px 20px;
+	border:none;
+	border-radius:12px;
+	font-weight: 700;
+	font-size:1em;
+
+}
+
+.general-info button:hover{
+	transition: .6s;
+	background-color: #6c757d;
+
+}
+
+footer{
+	color:#eee;
+	background-color: #6610f2;
+	height:auto;
+}
+
+
+
+
+.bottom-nav-container{
+	margin:0;
+}
+
+.bottom-nav{
+	height:auto;
+	padding: 20px 10px;
+	margin:0;
+	background-color: #370982;
+}
+
+
+.bottom-nav li{
+	text-align: center;
+	padding:10px 0;
+}
+
+.bottom-nav a{
+	text-decoration: none;
+	color:#eee;
+}
+
+
+.bottom-nav a:hover{
+	transition: .6s;
+	color:#007bff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+footer p{
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding:30px 0;
+	margin:0;
+	margin-top:80px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px){
+	.ticket-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.bottom-nav{
+	text-align: center;
+}
+
+.bottom-nav li{
+	display: inline;
+	padding: 10px;
+	margin:0 auto;
+}
+
+}
+
+@media (min-width: 1024px){
+.dropdown-btn{
+		visibility: hidden;
+		display: hidden;
+	}
+
+	.dropdown-content ul{
+	
+		display: none;
+	}
+
+	.dsk-top-nav li{
+		display: inline;
+	}
+
+}
+
+
+@media (min-width: 1440px){
+		.ticket-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+}
+
+
+
+/*EVENTS PAGES*/
+
+.event-content{
+	color:#fff;
+}
+
+
+.events-pages{
+	height:auto;
+	min-height: 700px;
+	background-color: rgba(23,18,69,.1);
+}
+
+
+.event-container{
+	width: 85%;
+	margin:0 auto;
+	height:auto;
+	min-height: 600px;
+	background-color: blue;
+}
+
+
+#event-header{
+	position:relative;
+	background-color: red;
+	border:none;
+	padding:20px 0;
+}
+
+#event-header h2{
+	margin:0;
+}
+
+
+.user-cred{
+	position: absolute;
+	top:20px;
+	left:60px;
+}
+
+.user-cred,h2,p,a{
+	padding: 0;
+	margin:0;
+}
+
+.user-imgs{
+	height:100px;
+	width: 150px;
+	background-color: pink;
+}
+
+.event-navigation ul{
+	margin:0;
+	padding:0;
+	background-color: green;
+}
+.event-navigation ul li{
+	list-style: none;
+	padding:15px 8px;
+}
+
+
+.user-info{
+	background-color: pink;
+}
+
+
+
+
+
+
+
+
