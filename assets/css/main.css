@@ -278,6 +278,17 @@ div.mobile-header{
 
 .general-info p{
 	margin-left: 30px;
+	padding:8px 0;
+}
+
+
+.info{
+	position: relative;
+}
+
+.info i{
+	position: absolute;
+	top:18px;
 }
 
 .icon{
@@ -406,7 +417,6 @@ footer p{
 
 
 /*EVENTS PAGES*/
-
 .event-content{
 	color:#fff;
 }
@@ -432,6 +442,7 @@ footer p{
 	position:relative;
 	background-color: red;
 	border:none;
+	min-height: 100px;
 	padding:20px 0;
 }
 
@@ -439,11 +450,18 @@ footer p{
 	margin:0;
 }
 
+#event-header a{
+	margin:30px;
+	font-size:12px;
+	text-decoration: none;
+}
+
+
 
 .user-cred{
 	position: absolute;
 	top:20px;
-	left:60px;
+	left:110px;
 }
 
 .user-cred,h2,p,a{
@@ -451,9 +469,14 @@ footer p{
 	margin:0;
 }
 
+.user-cred p{
+	padding: 15px 0;
+}
+
 .user-imgs{
 	height:100px;
-	width: 150px;
+	width: 100px;
+	margin:0 5px;
 	background-color: pink;
 }
 
@@ -464,18 +487,24 @@ footer p{
 }
 .event-navigation ul li{
 	list-style: none;
-	padding:15px 8px;
+	padding:15px 0;
 }
 
 
 .user-info{
+	position: relative;
+	padding:16px 8px;
 	background-color: pink;
 }
 
+.user-info button{
+	position: absolute;
+	top:15px;
+	left:180px;
+	padding: 8px 0;
+	border:none;
+}
 
-
-
-
-
-
-
+#main-content{
+	background-color: yellow;
+}
